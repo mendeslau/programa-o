@@ -1,31 +1,38 @@
 *{
-    margin: 0 15px;
-     padding: 0 12px;
-
+    margin: 0 0px;
+    padding: 0 0px;
 }
-
 header{
-    background-color: #383d58;
-    color: white;
+    background-color: #84bce0;
+    color:white;
 }
 body{
-    background-color: #383d58;
-    color: white;
+    background-color: #e657da;
+    color:white; 
 
 }
- .cabecalho-imagem{
+.cabecalho-imagem{
     width: 20%;
-
 }
-.cabecalho{
-    background-color: #700f0f;
+ .cabecalho{
+    background-color:#d694f5;
     display: flex;
     justify-content: space-around;
-    padding: 24px 0;
-    
-}
+ }
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    
+    font-size: 32px;
+}
+.escola-imagem{
+    width: 41%;
+}
+.escola{
+    background-image: linear-gradient(#d694f5, #e657da) ;
+    display: flex;
+    color: white;
+}
+.escola-conteudo{
+    wigth: 77%;
+
 }
